@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/dialog_prompt_login_linear_layout"
+        android:layout_width="210dp"
+        android:layout_height="80dp"
+        android:background="@drawable/wechat_progress_dialog"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/dialog_prompt_login_progress_bar"
+            style="@android:style/Widget.Holo.ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:id="@+id/dialog_prompt_login_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:paddingLeft="15dp"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</LinearLayout>
